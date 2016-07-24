@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EBEBEB"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:id="@+id/yonghu"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/discover_header_yonghu"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/me_header"
+                android:scaleType="centerInside" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/discover_name_yonghu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="猫猫不乖"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/discover_me_describe_yonghu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="微信号：JINGER"
+                    android:textColor="#9B9B9B"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/xiangce"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/yonghu"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/discover_header_xiangce"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shoucang"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/discover_name_xiangce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="相册"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shoucang"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/xiangce"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/discover_header_shoucang"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shoucang"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/discover_name_shoucang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="收藏"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wallet"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/shoucang"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/discover_header_wallet"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shoucang"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/discover_name_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="钱包"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/wallet"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/discover_header_card"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shoucang"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/discover_name_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="卡包"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/biaoqing"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/card"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/discover_header_biaoqing"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shoucang"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/discover_name_biaoqing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="表情"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/biaoqing"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/discover_header_setting"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shoucang"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/discover_name_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="设置"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
